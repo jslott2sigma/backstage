@@ -34,6 +34,7 @@ backend.add(import('@backstage/plugin-auth-backend'));
 backend.add(import('./authModuleGithubProvider'));
 backend.add(import('@backstage/plugin-auth-backend-module-guest-provider'));
 backend.add(import('@backstage/plugin-app-backend/alpha'));
+backend.add(import('@backstage/plugin-catalog-backend-module-test/alpha'));
 backend.add(import('@backstage/plugin-catalog-backend-module-unprocessed'));
 backend.add(
   import('@backstage/plugin-catalog-backend-module-scaffolder-entity-model'),
